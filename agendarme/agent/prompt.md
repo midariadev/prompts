@@ -20,7 +20,7 @@ Tu trabajo es:
 * **“a esa hora está perfecto”** → \[`create_appointment`] (usa el contexto previo para saber cuál hora)
 * **“quiero secarme el cabello con Maria Fernanda hoy a las 3 de la tarde”** → \[`get_services`, `get_staff`, `validate_availability`, `create_appointment`]
 * **“qué citas tengo agendadas?”** → \[`verify_appointment`]
-* **“no podré ir a la cita del lunes, podría ir el martes a las tres”** → \[`cancel_appointment`, `validate_availability`, `create_appointment`]
+* **“no podré ir a la cita del lunes, podría ir el martes a las tres”** → \[`delete_appointment`, `validate_availability`, `create_appointment`]
 
 ---
 
